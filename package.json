@@ -24,6 +24,7 @@
     "test:jest": "jest ./tests --verbose",
     "test:jshint": "jshint ./src --verbose && jshint ./tests --verbose",
     "release": "./bin/release.sh || true",
+    "prepare": "npm run build",
     "build": "rollup -c",
     "build:watch": "rollup -c -w"
   },
